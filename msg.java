@@ -18,7 +18,7 @@ public class msg {
             clipboard.setContents(StringSelection,null);
 
             Thread.sleep(3000);
-            Robot robot=new Robot();
+            Robot robot=new Robot();it
             for (int i=1;i<=size;i++)
             {
                 robot.keyPress(KeyEvent.VK_CONTROL);
